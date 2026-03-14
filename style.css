@@ -1,0 +1,44 @@
+* {
+    font-family : Arial, Helvetica, sans-serif
+
+}
+.intro-text{
+    text-align: center;
+    font-size: 50px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    height: 70px;
+    font-size: 30px;
+}
+.tasks-show-area{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-direction: column;
+}
+.add-button,.js-todo-input,.js-date-input,.edit-button,.js-delete-button{
+    font-size: 20px;
+   
+}
+.add-button{
+    color: white;
+    background-color: green;
+    border: none;
+    /* font-size: 30px; */
+}
+
+.js-delete-button{
+    color: white;
+    background-color: red;
+    border: none;
+}
+.edit-button{
+    color: white;
+    background-color: blue;
+    border: none;
+}
